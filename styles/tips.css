@@ -1,17 +1,17 @@
 .tipList {
-    background-color: dodgerblue;
     height: 100%;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
-    height: auto;
+
 }
 
 .tip {
     background-color: royalblue;
-    margin: 8px;
-    border-style: solid;
-    border-color: black;
-    width: auto;
-    height: 30px;
+    border: solid black 2px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+  
 }

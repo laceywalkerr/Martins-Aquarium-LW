@@ -8,12 +8,15 @@
 
 .location {
     background-color: mediumseagreen;
-    margin: 25px;
+    margin: 8px;
     flex-wrap: wrap;
     border-style: solid;
     border-color: black;
     width: 275px;
     height: 300px;
+    border-radius: 25px;
+    box-shadow: 3px 7px 9px 6px darkgreen;
+    align-items: center;
 }
 
 
@@ -23,4 +26,9 @@
     margin: 8px;
     border-style: solid;
     border-color: black;
+    align-items: center;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
