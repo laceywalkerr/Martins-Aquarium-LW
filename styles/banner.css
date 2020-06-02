@@ -5,11 +5,15 @@
     border-color: black;
     font-size: 50px;
     text-align: center;
-}
-
-.banner__logo {
-    width: 87px;
-   
 
 }
 
+/* .banner__logo {
+border: 5px red solid;
+
+} */
+
+.banner__pic {
+    max-width: 10%;
+    max-height: 10%;
+}

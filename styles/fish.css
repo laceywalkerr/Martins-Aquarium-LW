@@ -14,9 +14,9 @@
     border-color: black;
     align-items: center;
     width: 275px;
-    height: 300px;
+    height: 320px;
     border-radius: 25px;
-
+    box-shadow: 3px 7px 9px 6px darkmagenta;
 }
 
 
@@ -29,4 +29,7 @@
     display: flex;
     align-items: center;
     border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
