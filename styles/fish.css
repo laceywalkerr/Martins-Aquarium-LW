@@ -1,13 +1,32 @@
 .fishList {
     background-color: mediumorchid;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+    
 }
 
 .fish {
     background-color: mediumvioletred;
+    margin: 8px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    width: 275px;
+    height: 300px;
+    border-radius: 25px;
+
 }
 
 
 .fish__picture {
     max-width: 15rem;
     max-height: 15rem;
+    margin: 8px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
 }
