@@ -1,18 +1,3 @@
-// const fishList = () => {
-//     // Iterate the sollection if fish objects
-//     for (const currentFishObject of fishCollection) {
-
-//         // Convert the current fish to its HTML representation
-//         const fishHTML = fishConverter(currentFishObject)
-
-//         // Find the <article> element in index.html
-//         
-    
-//         //Put the fish HTML representation inside the <carrier>
-//         fishArticleElement.innerHTML += fishHTML
-        
-//     }
-// }
 
 const contentTarget = document.querySelector(".fishList")
 
@@ -53,3 +38,25 @@ const fishList = () => {
     showRegularFish()
     
 }
+
+
+//          REMNANTS OF OLD CODE FOR REFERANCE PURPOSES 
+// const fishList = () => {
+//     // Iterate the sollection if fish objects
+//     for (const currentFishObject of fishCollection) {
+
+//         // Convert the current fish to its HTML representation
+//         const fishHTML = fishConverter(currentFishObject)
+
+//         // Find the <article> element in index.html
+//         
+
+
+// const fishArticleElement = document.querySelector(".fishList")
+
+
+//         //Put the fish HTML representation inside the <carrier>
+//         fishArticleElement.innerHTML += fishHTML
+        
+//     }
+// }
