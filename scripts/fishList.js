@@ -1,39 +1,27 @@
-/*
-responsible for generating a list of fish HTML
-representations, and putting in the browser
-*/
+// const fishList = () => {
+//     // Iterate the sollection if fish objects
+//     for (const currentFishObject of fishCollection) {
 
-const fishList = () => {
-    // Iterate the sollection if fish objects
-    for (const currentFishObject of fishCollection) {
+//         // Convert the current fish to its HTML representation
+//         const fishHTML = fishConverter(currentFishObject)
 
-        // Convert the current fish to its HTML representation
-        const fishHTML = fishConverter(currentFishObject)
-
-        // Find the <article> element in index.html
-        const fishArticleElement = document.querySelector(".fishList")
+//         // Find the <article> element in index.html
+//         
     
-        //Put the fish HTML representation inside the <carrier>
-        fishArticleElement.innerHTML += fishHTML
-
-
+//         //Put the fish HTML representation inside the <carrier>
+//         fishArticleElement.innerHTML += fishHTML
         
-    }
-}
+//     }
+// }
 
-
-
-
-
-
-
+const contentTarget = document.querySelector(".fishList")
 
 // Function to show holy fish in the browser
 const showHolyFish = () => {
     const fishObjectsArray = mostHolyFish()
 
     for (const fishObject of fishObjectsArray) {
-        const fishHTMLRepresentation = fish(fishObject)
+        const fishHTMLRepresentation = fishConverter(fishObject)
         contentTarget.innerHTML += fishHTMLRepresentation
     }
 }
@@ -43,7 +31,7 @@ const showSoldierFish  = () => {
     const fishObjectsArray = bestSoldierFish()
 
     for (const fishObject of fishObjectsArray) {
-        const fishHTMLRepresentation = fish(fishObject)
+        const fishHTMLRepresentation = fishConverter(fishObject)
         contentTarget.innerHTML + fishHTMLRepresentation
     }
 }
@@ -54,13 +42,12 @@ const showRegularFish  = () => {
     const fishObjectsArray = nonHolyFish()
 
     for (const fishObject of fishObjectsArray) {
-        const fishHTMLRepresentation = fish(fishObject)
+        const fishHTMLRepresentation = fishConverter(fishObject)
         contentTarget.innerHTML + fishHTMLRepresentation
     }
 }
 
 const fishList = () => {
-    // Invoke all three functions here
     showHolyFish()
     showSoldierFish()
     showRegularFish()
