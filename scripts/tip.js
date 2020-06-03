@@ -3,7 +3,7 @@ const tipConverter = (tipObject) => {
     const tipHTMLRepresentation = `
         <section class="tip">
             <div class="tip__details">
-                ${tipObject.quote}
+                ${tipObject.tip}
             </div>
         </section>`
     return tipHTMLRepresentation
