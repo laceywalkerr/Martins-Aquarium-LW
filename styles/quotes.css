@@ -6,10 +6,10 @@
 }
 
 .quote {
-    background-color: #cbd7e1;
+    background-color: #fdd149;
     border: solid black 2px;
     padding: 8px;
     border-radius: 5px;
     margin: 10px;
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 3px 3px 3px 3px grey;
 }
