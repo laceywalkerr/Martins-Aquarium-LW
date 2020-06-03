@@ -1,5 +1,5 @@
 .fishList {
-    background-color: mediumorchid;
+    background-color: whitesmoke;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
@@ -8,7 +8,7 @@
 }
 
 .fish {
-    background-color: mediumvioletred;
+    background-color: #59BAB5;
     margin: 8px;
     border-style: solid;
     border-color: black;
@@ -16,7 +16,7 @@
     width: 275px;
     height: 320px;
     border-radius: 25px;
-    box-shadow: 3px 7px 9px 6px darkmagenta;
+    box-shadow: 3px 7px 9px 6px grey;
 }
 
 

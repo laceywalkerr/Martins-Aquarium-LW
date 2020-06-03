@@ -1,5 +1,5 @@
 .locationList {
-    background-color: greenyellow;
+    background-color: whitesmoke;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
@@ -7,7 +7,7 @@
 }
 
 .location {
-    background-color: mediumseagreen;
+    background-color: #c7f6b6;
     margin: 8px;
     flex-wrap: wrap;
     border-style: solid;
@@ -15,7 +15,7 @@
     width: 275px;
     height: 300px;
     border-radius: 25px;
-    box-shadow: 3px 7px 9px 6px darkgreen;
+    box-shadow: 3px 7px 9px 6px grey;
     align-items: center;
 }
 
