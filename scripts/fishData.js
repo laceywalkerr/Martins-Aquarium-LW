@@ -1,7 +1,7 @@
 const fishCollection = [
     {
         species: "parrot fish",
-        length: "8 in",
+        length: 8,
         name: "angus",
         location: "Sea of Google",
         food: "Popcorn",
@@ -10,7 +10,7 @@ const fishCollection = [
 
     {
         species: "Handfish",
-        length: "4 in",
+        length: 4,
         name: "Louie",
         location: "Deep in the Oceans of Australia",
         Food: "Shrimp",
@@ -19,7 +19,7 @@ const fishCollection = [
 
     {
         species: "Blob Fish",
-        length: "11 in",
+        length: 11,
         name: "Becky",
         location: "Deep in the Oceans of Australia",
         food: "Crabs? (No one has ever seen a blobfish eat.)",
@@ -28,7 +28,7 @@ const fishCollection = [
 
     {
         species: "Barreleye Fish",
-        length: "6 in",
+        length: 6,
         name: "Garrett",
         location: "Atlantic, Pacific, and Indian oceans",
         food: "Cnidarian Animals and Jellyfish",
@@ -37,7 +37,7 @@ const fishCollection = [
 
     {
         species: "Mantis Shrimp",   
-        length: "3.9-15 in",
+        length: 15,
         name: "Stacey",
         location: "Sub-Antarctic waters",
         food: "Fish, crabs, worms, shrimp and other mantis shrimp",
@@ -46,7 +46,7 @@ const fishCollection = [
 
     {
         species: "Gulf Signal Blenny",
-        length: "2 in",
+        length: 2,
         name: "Lenny",
         location: "Gulf of California, in the eastern central Pacific ocean",
         food: "Zooplankton",
@@ -55,7 +55,7 @@ const fishCollection = [
 
     {
         species: "Unicorn Fish",
-        length: "20-24 in",
+        length: 24,
         name: "Jocelyn",
         location: "Indian to Pacific Ocean",
         food: "Algae",
@@ -63,17 +63,17 @@ const fishCollection = [
     },
 
     {
-        species: "Unicorn Fish",
-        length: "20-24 in",
-        name: "Jocelyn",
-        location: "Indian to Pacific Ocean",
-        food: "Algae",
+        species: "Gulper Eel",
+        length: 78,
+        name: "Margo",
+        location: "North Atlantic Ocean",
+        food: "Shrimp, squid and fish.",
         picture: "https://natgeo.imgix.net/factsheets/thumbnails/NW_DLY_ds1802001_447_gulper_eel_scientists_p180921.jpg?auto=compress,format&w=1600&h=900&fit=crop"
     },
 
     {
         species: "Clown Fish",
-        length: "4.3 in",
+        length: 4,
         name: "Nemo",
         location: "MIA",
         food: "Algae and Zooplankton",
@@ -81,3 +81,41 @@ const fishCollection = [
     }
 
 ]
+
+// 3, 6, 9, 12, etc... fish
+
+const mostHolyFish = () => {
+    const holyFish = []
+
+    for (const hfish of fishCollection) {
+        if (hfish.length % 3 === 0) {
+            holyFish.push(hfish)
+        }
+    }
+    return holyFish
+}
+
+// 5, 10, 15, 20, 25, etc... fish
+
+const bestSoldierFish = () => {
+    const soldierFish = []
+
+    for (const sfish of fishCollection) {
+        if (sfish.length % 5 === 0) {
+            soldierFish.push(sfish)
+        }
+    }
+    return soldierFish
+}
+
+// // Any fish not a multiple of 3 or 5
+const nonHolyFish = () => {
+    const regularFish = []
+
+    for (const xfish of fishCollection) {
+        if (xfish.length % 3 !== 0 && xfish.length % 5 !== 0)
+            regularFish.push(xfish)
+    }
+    return regularFish
+}
+// }
