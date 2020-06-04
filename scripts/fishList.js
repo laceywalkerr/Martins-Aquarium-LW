@@ -17,7 +17,7 @@ const showSoldierFish  = () => {
 
     for (const fishObject of fishObjectsArray) {
         const fishHTMLRepresentation = fishConverter(fishObject)
-        contentTarget.innerHTML + fishHTMLRepresentation
+        contentTarget.innerHTML += fishHTMLRepresentation
     }
 }
 
@@ -28,7 +28,7 @@ const showRegularFish  = () => {
 
     for (const fishObject of fishObjectsArray) {
         const fishHTMLRepresentation = fishConverter(fishObject)
-        contentTarget.innerHTML + fishHTMLRepresentation
+        contentTarget.innerHTML += fishHTMLRepresentation
     }
 }
 
