@@ -1,7 +1,17 @@
-const fishCollection = [
-    
+let fishCollection = []
 
-]
+const getFishData = () => {
+    return fetch("http://localhost:8088/fish").then(
+        (response) => {
+            return response.json()
+        }
+    )
+    .then(
+        (arrayOfFish) => {
+                fishCollection = arrayOfFish
+        }
+    )
+}
 
 // 3, 6, 9, 12, etc... fish
 
