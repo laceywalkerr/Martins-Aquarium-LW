@@ -1,5 +1,4 @@
 
-
 const quoteConverter = (quoteObject) => {
     const quoteHTMLRepresentation = ` 
         <section class="quote">

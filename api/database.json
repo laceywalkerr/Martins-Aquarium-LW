@@ -1,6 +1,7 @@
 {
     "fish": [
         {
+            "id": 1,
             "species": "parrot fish",
             "length": 8,
             "name": "angus",
@@ -10,6 +11,7 @@
         },
     
         {
+            "id": 2,
             "species": "Handfish",
             "length": 4,
             "name": "Louie",
@@ -19,6 +21,7 @@
         },
     
         {
+            "id": 3,
             "species": "Blob Fish",
             "length": 11,
             "name": "Becky",

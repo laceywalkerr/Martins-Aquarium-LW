@@ -1,7 +1,7 @@
-const locationCollection = []
+let locationCollection = []
 
 const getLocationData = () => {
-    return fetch("http://localhost:8088/location").then(
+    return fetch("http://localhost:8088/locations").then(
         (response) => {
             return response.json()
         }
