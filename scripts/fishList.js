@@ -1,3 +1,17 @@
+const fishTypeDropdown = document.querySelector(".typeChoice")
+const constentTarget = document.querySlelector(".fishlist")
+
+const clearFishList = () => constantTarget.innerHTML = ""
+
+fishTypeDropdown.addEventListener("change"), clickEvent => {
+    const userChoice = clickEvent.target.value
+
+    if (userChoice === 'holy'){
+        clearFishList()
+        showHolyFish()
+    }
+}
+
 
 const contentTarget = document.querySelector(".fishList")
 
