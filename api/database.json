@@ -1,0 +1,136 @@
+{
+    "fish": [
+        {
+            "id": 1,
+            "species": "parrot fish",
+            "length": 8,
+            "name": "angus",
+            "location": "Sea of Google",
+            "food": "Popcorn",
+            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
+        },
+    
+        {
+            "id": 2,
+            "species": "Handfish",
+            "length": 4,
+            "name": "Louie",
+            "location": "Deep in the Oceans of Australia",
+            "Food": "Shrimp",
+            "picture": "https://www.imas.utas.edu.au/__data/assets/image/0010/1268920/Red-handfish.-Thymichthys-politus.-Credit-Rick-Stuart-Smith-11-sm.jpg"
+        },
+    
+        {
+            "id": 3,
+            "species": "Blob Fish",
+            "length": 11,
+            "name": "Becky",
+            "location": "Deep in the Oceans of Australia",
+            "food": "Crabs? (No one has ever seen a blobfish eat.)",
+            "picture": "https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555293705/shape/mentalfloss/blobfish_0.jpg"
+        },
+    
+        {
+            "species": "Barreleye Fish",
+            "length": 6,
+            "name": "Garrett",
+            "location": "Atlantic, Pacific, and Indian oceans",
+            "food": "Cnidarian Animals and Jellyfish",
+            "picture": "https://pulptastic.com/wp-content/uploads/2014/11/6c94f37e5f37559e167edaf1a6434b07_970x.jpg"
+        },
+    
+        {
+            "species": "Mantis Shrimp",   
+            "length": 15,
+            "name": "Stacey",
+            "location": "Sub-Antarctic waters",
+            "food": "Fish, crabs, worms, shrimp and other mantis shrimp",
+            "picture": "https://i.pinimg.com/originals/b2/cb/8b/b2cb8b9b0e908bea7f661c603ce3c54c.jpg"
+        },
+    
+        {
+            "species": "Gulf Signal Blenny",
+            "length": 5,
+            "name": "Lenny",
+            "location": "Gulf of California, in the eastern central Pacific ocean",
+            "food": "Zooplankton",
+            "picture": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/gulf-signal-blennies-in-threatening-posture-reinhard-dirscherlscience-photo-library.jpg"
+        },
+    
+        {
+            "species": "Unicorn Fish",
+            "length": 24,
+            "name": "Jocelyn",
+            "location": "Indian to Pacific Ocean",
+            "food": "Algae",
+            "picture": "https://www.twofishdivers.com/wp-content/uploads/2020/01/bluespine-unicornfish-ras-mohammed-np-egypt-red-sea-linda-pitkin-natureplcom.jpg"
+        },
+    
+        {
+            "species": "Gulper Eel",
+            "length": 78,
+            "name": "Margo",
+            "location": "North Atlantic Ocean",
+            "food": "Shrimp, squid and fish.",
+            "picture": "https://natgeo.imgix.net/factsheets/thumbnails/NW_DLY_ds1802001_447_gulper_eel_scientists_p180921.jpg?auto=compress,format&w=1600&h=900&fit=crop"
+        },
+    
+        {
+            "species": "Clown Fish",
+            "length": 4,
+            "name": "Nemo",
+            "location": "MIA",
+            "food": "Algae and Zooplankton",
+            "picture": "https://www.celebrationspress.com/wp-content/uploads/2017/11/112717Nemo.png"
+        }
+    ],
+
+
+    "locations": [
+
+        {
+            "where": "Caribbean Sea",
+            "description": "Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard.",
+            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg"
+        },
+    
+        {
+            "where": "Atlantic Ocean",
+            "description": "The Atlantic Ocean borders on North America, South America, Europe, and Africa. It is the world's second largest ocean, while the Pacific Ocean is the largest. ",
+            "picture": "https://www.kids-world-travel-guide.com/images/xbahamas_shutterstock_173439083.jpg.pagespeed.ic.2AO1L-qLmO.jpg"
+        },
+    
+        {
+            "where": "Pacific Ocean",
+            "description": "The Pacific is the biggest ocean on earth and covers more than 30% of the earth's surface.",
+            "picture": "https://cff2.earth.com/uploads/2019/06/10155530/Dust-from-Asia-fertilizes-the-North-Pacific-Ocean.jpg"
+        },
+    
+    
+        {
+            "where": "Indian Ocean",
+            "description": "The Indian Ocean is the world's third largest ocean and covers 20% of the Earth's surface, after the Pacific and the Atlantic Oceans.",
+            "picture": "https://44s2n02i19u61od84f3rzjqx-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/maldives-800x500_c.jpg"
+        }
+    ],
+
+
+    "tips": [
+        {
+            "tip": "Poutine viral man braid farm-to-table chambray stumptown."
+        },
+    
+        {
+            "tip": "Perform Regular Water Changes."
+        },
+    
+        {
+            "tip": "Choose an Appropriately Sized Tank."
+        },
+    
+        {
+            "tip": "Fish are wet."
+        }
+
+    ]
+}

@@ -1,3 +1,23 @@
+const fishTypeDropdown = document.querySelector(".typeChoice")
+const constentTarget = document.querySelector(".fishList")
+
+const clearFishList = () => constantTarget.innerHTML = ""
+
+fishTypeDropdown.addEventListener("change", clickEvent => {
+    const userChoice = clickEvent.target.value
+
+    if (userChoice === 'holy'){
+        clearFishList()
+        showHolyFish()
+    } else if (userChoice === 'soldier') {
+        clearFishList()
+        showSoldierFish()
+    } else if (userChoice === "all") {
+        clearFishList()
+        showRegularFish()
+    }
+}
+)
 
 const contentTarget = document.querySelector(".fishList")
 
@@ -17,7 +37,7 @@ const showSoldierFish  = () => {
 
     for (const fishObject of fishObjectsArray) {
         const fishHTMLRepresentation = fishConverter(fishObject)
-        contentTarget.innerHTML + fishHTMLRepresentation
+        contentTarget.innerHTML += fishHTMLRepresentation
     }
 }
 
@@ -28,7 +48,7 @@ const showRegularFish  = () => {
 
     for (const fishObject of fishObjectsArray) {
         const fishHTMLRepresentation = fishConverter(fishObject)
-        contentTarget.innerHTML + fishHTMLRepresentation
+        contentTarget.innerHTML += fishHTMLRepresentation
     }
 }
 
